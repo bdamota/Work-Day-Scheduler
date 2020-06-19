@@ -49,6 +49,7 @@ body {
   border: none;
   margin-left: -80px;
   margin-top: -17px;
+  border-left: 1.5px solid black;
 }
 
 .present {
@@ -62,14 +63,25 @@ body {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1.5px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
   background-color: #06AED5;
   color: white;
+  margin-top: 1px;
+  margin-bottom: -30px;
+  height: 95px;
+  width: 80px;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+.saveBtn:active, .saveBtn:focus {
+  outline: 0;
+}
+
+.saveBtn:hover {
+  font-size: 30px;
   transition: all .3s ease-in-out;
 }

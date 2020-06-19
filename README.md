@@ -3,10 +3,10 @@
 ## PROJECT DESCRIPTION:
 
 ## BUILT WITH:
-*HTML
-*CSS
-*JQuery
-*Bootstrap
+* HTML
+* CSS
+* JQuery
+* Bootstrap
 
 ## FUNCTIONALITY AND APPEARANCE:
 

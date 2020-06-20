@@ -4,6 +4,30 @@ body {
   line-height: 1;
 }
 
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.form-group {
+  height: 0px;
+}
+
+.form-control {
+  height: 110px;
+  margin-top: -63px;
+  width: 950px;
+}
+
+
+.form-group:active, .form-g.form-group {
+  outline: 0;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -23,7 +47,6 @@ body {
 
 .row {
   white-space: pre-wrap;
-  height: 5px;
   border-top: 1px solid white;;
 }
 
@@ -31,25 +54,13 @@ body {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  text-align: right;
-  margin-top: -30px;
-  margin-right: -3px;
-}
-
-.input {
-  margin-top: -30px;
-  margin-bottom: -100px;
+  text-align:right;
+  margin-top: -32px;
 }
 
 .past {
   background-color: #d3d3d3;
-  color:black;
-  width: 950px;
-  height: 95px;
-  border: none;
-  margin-left: -80px;
-  margin-top: -17px;
-  border-left: 1.5px solid black;
+  color: white;
 }
 
 .present {
@@ -63,25 +74,23 @@ body {
 }
 
 .saveBtn {
-  border-left: 1.5px solid black;
+  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  border-top: none;
-  border-right: none;
-  border-bottom: none;
   background-color: #06AED5;
   color: white;
-  margin-top: 1px;
+  height: 110px;
   margin-bottom: -30px;
-  height: 95px;
+  margin-left:-5px;
+  margin-top: 1px;
   width: 90px;
-}
-
-.saveBtn:active, .saveBtn:focus {
-  outline: 0;
 }
 
 .saveBtn:hover {
   font-size: 30px;
   transition: all .3s ease-in-out;
+}
+
+.saveBtn:active, .saveBtn:focus {
+  outline: 0;
 }

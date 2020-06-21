@@ -4,25 +4,15 @@ body {
   line-height: 1;
 }
 
-.form-group {
-  height: 0px;
-}
-
-.form-control {
-  height: 80px;
-  margin-top: -63px;
-  width: 950px;
+.schedule {
+  height: 79px;
+  margin-top: -32px;
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-}
-
-
-.form-group:active, .form-g.form-group {
-  outline: 0;
 }
 
 .jumbotron {
@@ -44,15 +34,19 @@ body {
 
 .row {
   white-space: pre-wrap;
-  margin-top: -10px;
+  height: 80px;
+  border-top: 1px solid white;;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  text-align:right;
+  height: 79px;
+  width: 115px;
   margin-top: -32px;
+  margin-left: -20px;
+  text-align: right;
 }
 
 .past {
@@ -76,10 +70,12 @@ body {
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  margin-top: -32px;
+  height: 79px;
 }
 
 .saveBtn:hover {
-  font-size: 30px;
+  font-size: 20px;
   transition: all .3s ease-in-out;
 }
 

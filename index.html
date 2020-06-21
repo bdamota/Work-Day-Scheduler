@@ -30,25 +30,22 @@
       <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="description">A simple calendar app for scheduling your work day</p>
-        <p id="currentDay" class="lead"></p>
-      <div class="container">
-      <!--Timeblocks go here -->
-      </div>
+        <p id="currentDay"></p>
     </header>
     <main>
           <div class="container">
-            <div class="row">
+            <div class="row time-block" id="9">
               <div class="col-1">
-                <p class="hour">9AM</p> 
+                <p class="hour"> 9AM</p> 
               </div>
               <form>
                 <div class="form-group">
-                  <input class="form-control" id="task" type="text">
+                  <input class="form-control schedule" id="task" type="text">
                 </div>
               </form> 
-              <button type="button" class="saveBtn">🔒</button>
+              <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-            <div class="row">
+            <div class="row time-block" id="10">
               <div class="col-1">
                 <p class="hour">10AM</p> 
               </div>
@@ -57,9 +54,9 @@
                   <input class="form-control" id="task" type="text">
                 </div>
               </form> 
-              <button type="button" class="saveBtn">🔒</button> 
+              <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-            <div class="row">
+            <div class="row time-block" id="11">
               <div class="col-1">
                 <p class="hour">11AM</p>     
               </div>
@@ -68,9 +65,9 @@
                   <input class="form-control" id="task" type="text">
                 </div>
               </form> 
-              <button type="button" class="saveBtn">🔒</button>
+              <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-            <div class="row">
+            <div class="row time-block" id="12">
               <div class="col-1">
                 <p class="hour">12PM</p>         
               </div>
@@ -79,9 +76,9 @@
                   <input class="form-control" id="task" type="text">
                 </div>
               </form> 
-              <button type="button" class="saveBtn">🔒</button>
+              <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-              <div class="row">
+            <div class="row time-block" id="1">
                 <div class="col-1">
                  <p class="hour">1PM</p>              
                 </div>
@@ -90,9 +87,9 @@
                     <input class="form-control" id="task" type="text">
                   </div>
                 </form> 
-                <button type="button" class="saveBtn">🔒</button>
+                <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-              <div class="row">
+            <div class="row time-block" id="2">
                 <div class="col-1">
                   <p class="hour">2PM</p>              
                 </div>
@@ -101,9 +98,9 @@
                     <input class="form-control" id="task" type="text">
                   </div>
                 </form>  
-                <button type="button" class="saveBtn">🔒</button>
+                <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-              <div class="row">
+            <div class="row time-block" id="3">
                 <div class="col-1">
                   <p class="hour">3PM</p>                       
                 </div>
@@ -112,9 +109,9 @@
                     <input class="form-control" id="task" type="text">
                   </div>
                 </form> 
-                <button type="button" class="saveBtn">🔒</button>
+                <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-              <div class="row">
+            <div class="row time-block" id="4">
                 <div class="col-1">
                   <p class="hour">4PM</p>                        
               </div>
@@ -123,9 +120,9 @@
                   <input class="form-control" id="task" type="text">
                 </div>
               </form>  
-              <button type="button" class="saveBtn">🔒</button>
+              <input type="button" class="saveBtn col-1" value="🔒" />
           <div class="container">
-              <div class="row">
+            <div class="row time-block" id="5">
                 <div class="col-1">
                   <p class="hour">5PM</p>                        
                 </div>
@@ -134,7 +131,7 @@
                     <input class="form-control" id="task" type="text">
                   </div>
                 </form> 
-                <button type="button" class="saveBtn">🔒</button>
+                <input type="button" class="saveBtn col-1" value="🔒" />
               </div>
             </div>
           </div>
@@ -142,5 +139,6 @@
 
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="assets/script.js"></script>
   </body>
 </html>

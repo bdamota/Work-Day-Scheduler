@@ -4,23 +4,20 @@ body {
   line-height: 1;
 }
 
-textarea{
+.form-group {
+  height: 0px;
+}
+
+.form-control {
+  height: 80px;
+  margin-top: -63px;
+  width: 950px;
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-}
-
-.form-group {
-  height: 0px;
-}
-
-.form-control {
-  height: 110px;
-  margin-top: -63px;
-  width: 950px;
 }
 
 
@@ -47,7 +44,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  border-top: 1px solid white;;
+  margin-top: -10px;
 }
 
 .hour {
@@ -79,11 +76,6 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  height: 110px;
-  margin-bottom: -30px;
-  margin-left:-5px;
-  margin-top: 1px;
-  width: 90px;
 }
 
 .saveBtn:hover {

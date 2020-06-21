@@ -23,9 +23,10 @@ var saveBtn = $(".saveBtn");
     
 
 saveBtn.on("click", function () {
+    //var time = $(this).parent().attr("id");
     var time = $(this).parent().attr("id");
-    var schedule = $(this).siblings(".schedule").val;
-
+    var schedule = $(this).siblings(".description").val().trim()
+    
     localStorage.setItem("time", JSON.stringify(time));
     localStorage.setItem("schedule", JSON.stringify(schedule));
 
@@ -44,9 +45,12 @@ function pastPresentFuture() {
         }
         else if (thisHour === hour) {
             $(this).addClass("present");
+            $(this).removeClass("past");
+            $(this).removeClass("future");
         }
         else {
             $(this).addClass("past");
+            $(this).removeClass("future");
         }
     })
 }

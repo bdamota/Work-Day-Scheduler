@@ -24,9 +24,6 @@ function setPlanner() {
             if (schedule !== null) {
                 $(this).children(".description").val(schedule);
             }
-            else {
-                schedule = {};
-            }
         });
     }
 setPlanner();
@@ -36,9 +33,8 @@ var saveBtn = $(".saveBtn");
     
 
 saveBtn.on("click", function () {
-    //var time = $(this).parent().attr("id");
     var time = $(this).parent().attr("id");
-    var schedule = $(this).siblings(".description").val().trim()
+    var schedule = $(this).siblings(".description").val().trim();
     
     localStorage.setItem("time", JSON.stringify(time));
     localStorage.setItem("schedule", JSON.stringify(schedule));

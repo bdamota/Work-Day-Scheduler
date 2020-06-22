@@ -16,6 +16,7 @@ A simple desktop calendar app to schedule the work day.
 * When refreshed, inputs persist in local storage. 
 
 ## SCREENSHOT:
+https://github.com/bdamota/Work-Day-Scheduler/blob/master/assets/images/Screen%20Shot%202020-06-21%20at%2010.42.45%20PM.png
 
 
 ## DEPLOYED SITE:

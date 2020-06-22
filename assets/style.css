@@ -9,10 +9,10 @@ body {
   text-align: center;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 3px solid black;
   margin-bottom: 0px;
   background-color: thistle;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .description{
@@ -32,8 +32,8 @@ body {
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: black;
+  border-top: 1px dashed darkgrey;
   height: 79px;
   width: 115px;
   margin-left: -20px;
